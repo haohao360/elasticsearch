@@ -28,7 +28,7 @@ public class MysqlToESController {
 		TransportClient client;
 		try {	
 			//TransportClient连接es
-			client = createConnection(settings,"192.168.1.179",9300);
+			client = createConnection(settings,"192.168.1.1",9300);
 			//调用插入大量数据方法
 			String message = insertSomeRecords(client);
 			//关闭连接
