@@ -44,7 +44,7 @@ public class WechatController {
 		 */
 		// return "redirect:" + redirectURL;
 		int state = (int) ((Math.random() * 9 + 1) * 1000);// 随机四位数
-		String returnUrl = "http://m.123.com/get-weixin-code.htm?appid=wx22185f2fa7824bbf7&scope=snsapi_userinfo&state="
+		String returnUrl = "http://m.123.com/get-weixin-code.htm?appid=wx22185f3fa7824bbf6&scope=snsapi_userinfo&state="
 		+ state
 		+ "&redirect_uri=http://www.123.com/wechat/userInfo";
 		//m.123.com    f.123.com
