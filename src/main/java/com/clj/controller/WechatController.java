@@ -48,7 +48,7 @@ public class WechatController {
 		+ state
 		+ "&redirect_uri=http://www.123.com/wechat/userInfo";
 		//m.123.com    f.123.com
-/*String returnUrl = "http://m.123.com/get-weixin-code.htm?appid=wx5285f2fa7824bbf7&scope=snsapi_userinfo&state="
+/*String returnUrl = "http://m.123.com/get-weixin-code.htm?appid=wx5285f2fa7564bbf7&scope=snsapi_userinfo&state="
 		+ state
 		+ "&redirect_uri=http://f.123.com/wechat/userInfo";*/
 		return "redirect:" + returnUrl;
